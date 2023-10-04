@@ -1,0 +1,7 @@
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\bin\Debug\Conversioni.exe.config
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\bin\Debug\Conversioni.exe
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\bin\Debug\Conversioni.pdb
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\obj\Debug\Conversioni.csproj.AssemblyReference.cache
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\obj\Debug\Conversioni.csproj.CoreCompileInputs.cache
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\obj\Debug\Conversioni.exe
+C:\Users\brian\Desktop\scuola\Sistemi\Conversioni\Conversioni\obj\Debug\Conversioni.pdb
