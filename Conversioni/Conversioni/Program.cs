@@ -34,6 +34,10 @@ namespace Conversioni
 
             Console.WriteLine("=================================");
 
+            Console.WriteLine(ConvertBinToDec(b));
+
+            Console.WriteLine("=================================");
+
             Console.ReadLine();
         }
 
@@ -86,10 +90,26 @@ namespace Conversioni
                 {
                     binToInt += (int)Math.Pow(2, j);
                 }
+
                 j--;
             }
 
             return binToInt;
+        }
+
+        static int ConvertBinToDec(bool[] bn)
+        {
+            int binToDec = 0;
+
+            for (int i = bn.Length - 1; i >= 0; i--)
+            {
+                if (bn[i])
+                {
+                    binToDec = (int)Math.Pow(2, bn.Length - 1 - i);
+                }
+            }
+
+            return binToDec;
         }
     }
 }
