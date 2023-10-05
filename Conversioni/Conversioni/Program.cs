@@ -24,7 +24,15 @@ namespace Conversioni
             {
                 Console.Write(Convert.ToInt32(b[i]));
             }
-            Console.WriteLine();
+            Console.WriteLine("\n=================================");
+
+            Console.WriteLine(ConvertDpToIntero(dp));
+
+            Console.WriteLine("=================================");
+
+            Console.WriteLine(ConvertBinToIntero(b));
+
+            Console.WriteLine("=================================");
 
             Console.ReadLine();
         }
@@ -52,6 +60,36 @@ namespace Conversioni
             }
 
             return b;
+        }
+
+        static int ConvertDpToIntero(int[] dp)
+        {
+            int dpToInt = 0, j = 3;
+
+            for (int i = 0; i < dp.Length; i++)
+            {
+                dpToInt += dp[i] * (int)Math.Pow(256, j);
+
+                j--;
+            }
+
+            return dpToInt;
+        }
+
+        static int ConvertBinToIntero(bool[] bn)
+        {
+            int binToInt = 0, j = 31;
+
+            for (int i = 0; i < bn.Length; i++)
+            {
+                if (bn[i])
+                {
+                    binToInt += (int)Math.Pow(2, j);
+                }
+                j--;
+            }
+
+            return binToInt;
         }
     }
 }
